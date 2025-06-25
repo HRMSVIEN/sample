@@ -1,0 +1,53 @@
+body{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+animation: box 10s infinite linear;
+}
+
+@keyframes box {
+    from{
+        transform:translateX(-750px)
+    }
+    to{
+        transform: translateX(1350px);
+    }
+} 
+
+.box1{
+   
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 1s;
+    animation:box1 5s infinite linear;
+}
+@keyframes box1 {
+    
+    25%{
+        transform:translateX(300px) rotate(3600deg);
+    }
+    50%{
+        transform: translateY(300px);
+        background-color: blue;
+    }
+    75%{
+        transform: translateX(-300px) rotate(-3600deg);
+        background-color: aqua;
+    }
+    100%
+    {
+        transform:translateY(-300px);
+        background-color: blueviolet;
+    } 
+    
+}
