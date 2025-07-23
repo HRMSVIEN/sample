@@ -129,6 +129,7 @@ const AboutUs = () => {
                     about our latest HR solutions, industry insights, and special
                     offers.
                   </p>
+                  <h1>Mohan</h1>
                 </BodyTypography>
                 <BodyTypography variant="body1">
                   Thank you for choosing vienstereoptic HRMS for your human resource
